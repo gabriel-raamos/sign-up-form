@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boxshadow {
+    box-shadow: 0px 10px 1px rgb(217, 102, 99), 0 10px 20px rgb(230, 109, 105);
+}
+
+.boxshadowinput {
+    box-shadow: 0px 7px 1px rgb(39, 170, 116), 0 7px 14px rgb(39, 170, 116);
+}
+
+.textfieldinput {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
