@@ -10,6 +10,10 @@
     box-shadow: 0px 7px 1px rgb(39, 170, 116), 0 7px 14px rgb(39, 170, 116);
 }
 
+.boxshadowinput:hover {
+    box-shadow: 0px 7px 1px #34CB8B, 0 7px 14px #34CB8B;
+}
+
 .textfieldinput {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }

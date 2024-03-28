@@ -18,7 +18,7 @@ export default function Form() {
     }
 
     return (
-        <div className="bg-gray-100 rounded-lg px-7 m-7 mb-20 boxshadow flex justify-center max-w-sm" >
+        <div className="bg-white rounded-lg px-5 md:px-0 m-7 mb-20 boxshadow flex justify-center max-w-sm" >
 
             <form onSubmit={onSave} >
 
@@ -54,10 +54,18 @@ export default function Form() {
                     whenChanged={valor => setPassword(valor)}
                 />
 
-                <button 
-                    className="bg-submitGreen boxshadowinput text-white p-2 mb-5">
-                    CLAIM YOUR FREE TRIAL
-                </button>
+                <div className="flex justify-center" >
+                    <button
+                        className="bg-submitGreen hover:bg-submitSoftGreen boxshadowinput text-white p-2 px-5 mb-5 font-bold">
+                        CLAIM YOUR FREE TRIAL
+                    </button>
+                </div>
+
+                <div>
+                    <p className="text-center text-sm text-gray-400 mb-5" >
+                        By clicking the button, you are agreeing to our <b className="text-red-400 cursor-pointer" >Terms and Services</b>
+                    </p>
+                </div>
 
             </form>
 

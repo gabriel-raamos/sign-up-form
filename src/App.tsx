@@ -3,27 +3,34 @@ import Form from "./components/Form/Form";
 
 export default function App() {
   return (
-    <div className="bg-mobile md:bg-desktop bg-repeat bg-softPink h-screen" >
+    <section className="bg-mobile md:bg-desktop bg-softPink h-screen md:grid md:grid-cols-2" >
 
-      <div className="text-white justify-center items-center" >
+      <div className="text-white flex justify-center items-center" >
 
-        <h1 className="text-3xl font-bold pt-24 flex justify-center md:max-w-sm">
-          Learn to code by <br />
-          watching others
-        </h1>
+        <div className="justify-center text-center" >
+          <h1 className="text-5xl font-bold pt-24 md:max-w-sm">
+            Learn to code by watching others
+          </h1>
 
-        <p className="max-w-xs py-7 flex justify-center items-center pl-10 text-center">
-          See how experienced developers solve problems in real time.
-          Watching scripted tutorials is great, but understanding how 
-          developers is invaluable.
-        </p>
+          <p className="max-w-xs py-7 ml-5 text-center md:ml-8">
+            See how experienced developers solve problems in real time.
+            Watching scripted tutorials is great, but understanding how
+            developers is invaluable.
+          </p>
+        </div>
 
       </div>
 
-      <BlueCard/>
+      <div className="md:flex md:justify-center md:items-center md:max-w-4xl md:w-full">
 
-      <Form />
+        <div>
+          <BlueCard />
 
-    </div>
+          <Form />
+        </div>
+
+      </div>
+
+    </section>
   )
 }

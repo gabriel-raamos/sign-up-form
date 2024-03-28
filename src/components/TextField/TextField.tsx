@@ -8,7 +8,7 @@ interface TextFieldProp {
     tipo: 'text' | 'email' | 'password'
 }
 
-export default function TextField({obrigatorio, valor, placeholder, tipo, whenChanged}: TextFieldProp) {
+export default function TextField({ obrigatorio, valor, placeholder, tipo, whenChanged }: TextFieldProp) {
 
     // const placeholderModificada = `${placeholder}`
 
@@ -17,14 +17,15 @@ export default function TextField({obrigatorio, valor, placeholder, tipo, whenCh
     }
 
     return (
-        <div className="m-6 rounded-xl shadow-2xl p-5" >
+        <section className="m-6 p-4 rounded-lg bg-white border border-gray-300 text-gray-600 flex" >
             <input
-                required={obrigatorio == true}
-                value={valor}
-                placeholder={placeholder}
-                type={tipo}
-                onChange={whenTyped}
-            />
-        </div>
+                    required={obrigatorio == true}
+                    value={valor}
+                    placeholder={placeholder}
+                    type={tipo}
+                    onChange={whenTyped}
+                    className="outline-none max-w-xl w-full"
+                />
+        </section>
     )
 }
