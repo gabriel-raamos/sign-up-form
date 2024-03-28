@@ -17,7 +17,7 @@ export default function TextField({ obrigatorio, valor, placeholder, tipo, whenC
     }
 
     return (
-        <section className="m-6 p-4 rounded-lg bg-white border border-gray-300 text-gray-600 flex" >
+        <section className="m-6 md:mx-0 p-4 rounded-lg bg-white border border-gray-300 text-gray-600 flex" >
             <input
                     required={obrigatorio == true}
                     value={valor}

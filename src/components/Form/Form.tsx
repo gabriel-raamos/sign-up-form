@@ -18,7 +18,7 @@ export default function Form() {
     }
 
     return (
-        <div className="bg-white rounded-lg md:px-0 m-7 mb-20 boxshadow flex justify-center max-w-sm" >
+        <div className="bg-white rounded-lg md:px-0 m-7 mb-20 boxshadow flex justify-center max-w-sm md:max-w-3xl md:w-full" >
 
             <form onSubmit={onSave} >
 
@@ -56,7 +56,7 @@ export default function Form() {
 
                 <div className="flex justify-center" >
                     <button
-                        className="bg-submitGreen hover:bg-submitSoftGreen duration-300 boxshadowinput text-white p-2 px-5 mb-5 font-bold">
+                        className="bg-submitGreen hover:bg-submitSoftGreen duration-300 boxshadowinput text-white p-2 px-5 mb-5 font-bold md:max-w-sm md:w-full rounded-lg">
                         CLAIM YOUR FREE TRIAL
                     </button>
                 </div>
