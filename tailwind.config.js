@@ -16,8 +16,8 @@ export default {
         submitSoftGreenShadow: "#3AECA0"
       },
       backgroundImage: {
-        'desktop': "url('./src/assets/images/bg-intro-desktop.png')",
-        'mobile': "url('./src/assets/images/bg-intro-mobile.png')"
+        'desktop': "url('/src/assets/images/bg-intro-desktop.png')",
+        'mobile': "url('/src/assets/images/bg-intro-mobile.png')"
       }
     },
   },
