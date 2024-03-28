@@ -3,7 +3,7 @@ import Form from "./components/Form/Form";
 
 export default function App() {
   return (
-    <section className="bg-mobile md:bg-desktop bg-softPink bg-repeat h-full md:grid md:grid-cols-2 pt-24" >
+    <section className="bg-mobile md:bg-desktop bg-softPink bg-repeat h-full md:grid md:grid-cols-2 pt-24 md:pt-0" >
 
       <div className="text-white flex justify-center items-center" >
 
