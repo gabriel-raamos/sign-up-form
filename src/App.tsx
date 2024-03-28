@@ -7,7 +7,7 @@ export default function App() {
 
       <div className="text-white flex justify-center items-center" >
 
-        <div className="justify-center text-center" >
+        <div className="text-center" >
           <h1 className="text-4xl font-bold md:max-w-sm">
             Learn to code by watching others
           </h1>
@@ -21,7 +21,7 @@ export default function App() {
 
       </div>
 
-      <div className="md:flex md:justify-center md:items-center md:max-w-4xl md:w-full">
+      <div className="md:flex md:justify-center md:text-center">
 
         <div>
           <BlueCard />

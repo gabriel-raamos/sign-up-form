@@ -56,7 +56,7 @@ export default function Form() {
 
                 <div className="flex justify-center" >
                     <button
-                        className="bg-submitGreen hover:bg-submitSoftGreen boxshadowinput text-white p-2 px-5 mb-5 font-bold">
+                        className="bg-submitGreen hover:bg-submitSoftGreen duration-300 boxshadowinput text-white p-2 px-5 mb-5 font-bold">
                         CLAIM YOUR FREE TRIAL
                     </button>
                 </div>
