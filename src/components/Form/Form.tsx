@@ -18,7 +18,7 @@ export default function Form() {
     }
 
     return (
-        <div className="bg-white rounded-lg px-5 md:px-0 m-7 mb-20 boxshadow flex justify-center max-w-sm" >
+        <div className="bg-white rounded-lg md:px-0 m-7 mb-20 boxshadow flex justify-center max-w-sm" >
 
             <form onSubmit={onSave} >
 
@@ -61,11 +61,10 @@ export default function Form() {
                     </button>
                 </div>
 
-                <div>
-                    <p className="text-center text-sm text-gray-400 mb-5" >
-                        By clicking the button, you are agreeing to our <b className="text-red-400 cursor-pointer" >Terms and Services</b>
-                    </p>
-                </div>
+
+                <p className="text-center text-sm text-gray-400 mb-5 md:px-6" >
+                    By clicking the button, you are agreeing to our <b className="text-softPink cursor-pointer" >Terms and Services</b>
+                </p>
 
             </form>
 

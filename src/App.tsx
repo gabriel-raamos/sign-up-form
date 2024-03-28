@@ -3,12 +3,12 @@ import Form from "./components/Form/Form";
 
 export default function App() {
   return (
-    <section className="bg-mobile md:bg-desktop bg-softPink h-screen md:grid md:grid-cols-2" >
+    <section className="bg-mobile md:bg-desktop bg-repeat h-full md:grid md:grid-cols-2 pt-24" >
 
       <div className="text-white flex justify-center items-center" >
 
         <div className="justify-center text-center" >
-          <h1 className="text-5xl font-bold pt-24 md:max-w-sm">
+          <h1 className="text-4xl font-bold md:max-w-sm">
             Learn to code by watching others
           </h1>
 
